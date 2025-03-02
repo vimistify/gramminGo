@@ -1,0 +1,85 @@
+{
+  "name": "mohamed-mujtaba-coffee-shop",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-class-properties": "^7.25.9",
+    "@babel/plugin-transform-nullish-coalescing-operator": "^7.25.9",
+    "@babel/plugin-transform-numeric-separator": "^7.25.9",
+    "@babel/plugin-transform-optional-chaining": "^7.25.9",
+    "@babel/plugin-transform-private-methods": "^7.25.9",
+    "@babel/plugin-transform-private-property-in-object": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "@dotlottie/react-player": "^1.6.19",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@eslint/config-array": "^0.19.1",
+    "@eslint/object-schema": "^2.1.5",
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@headlessui/react": "^2.1.8",
+    "@heroicons/react": "^2.1.5",
+    "@jridgewell/sourcemap-codec": "^1.5.0",
+    "@lottiefiles/dotlottie-react": "^0.12.0",
+    "@mui/material": "^6.3.1",
+    "@reduxjs/toolkit": "^2.2.7",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@tailwindcss/typography": "^0.5.15",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "babel-plugin-styled-components": "^2.1.4",
+    "framer-motion": "^11.9.0",
+    "glob": "^11.0.0",
+    "gsap": "^3.12.5",
+    "lottie-react": "^2.4.0",
+    "lucide-react": "^0.474.0",
+    "openai": "^4.78.0",
+    "react": "^18.3.1",
+    "react-animated-cursor": "^2.11.2",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.4.0",
+    "react-locomotive-scroll": "^0.2.2",
+    "react-redux": "^9.1.2",
+    "react-router-dom": "^6.26.2",
+    "react-scripts": "^5.0.1",
+    "react-toastify": "^11.0.2",
+    "rimraf": "^6.0.1",
+    "scrolltrigger": "^1.0.1",
+    "styled-components": "^6.1.13",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "css-loader": "^7.1.2",
+    "postcss": "^8.4.47",
+    "postcss-loader": "^8.1.1",
+    "source-map-loader": "^5.0.0",
+    "tailwindcss": "^3.4.13"
+  }
+}
