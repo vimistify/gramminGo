@@ -1,0 +1,45 @@
+/* Dropdown container */
+.product-submenu {
+    width: 10rem;
+    position: absolute;
+    top: 50px;
+    list-style: none; 
+    text-align: start; 
+    justify-content: center;
+    padding: -10px -10px;
+    background-color: rgba(44, 19, 11, 0.95); 
+    border-radius: 8px; 
+    border: 2px solid #8B4513; 
+    z-index: 1000; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.product-submenu.clicked {
+    display: none;
+}
+
+.submenu-item {
+    display: block;
+    width: 100%; 
+    text-decoration: none; 
+    color: #deb887; 
+    padding: -4px;
+    text-align: start; 
+    background-color: transparent; 
+    transition: background-color 0.2s ease, color 0.2s ease; 
+
+}
+
+.submenu-item:hover {
+    background-color: #8B4513; 
+    color: #ffffff; 
+    cursor: pointer; 
+}
+
+.submenu-item a {
+    color: inherit; 
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
