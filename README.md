@@ -1,32 +1,37 @@
-# MsCafe ☕️
+# gramminGo
 
-MsCafe was founded with a simple mission: to serve the best coffee in town. Our passion for quality beans and expert brewing techniques has made us a favorite among coffee enthusiasts. We source our beans from sustainable farms around the world, ensuring that every cup of coffee you enjoy is not only delicious but also ethically produced.
+With this passion for language, we are excited to introduce grammingo:an interactive, game-based learning app designed to improve spelling, grammar, and word usage in English & Hindi. Through AI-driven challenges, voice interactions, and real life scenarios, It makes learning languages fun, immersive, and effective.
 
 ## Table of Contents
-- [Project Overview](#project-overview)
-- [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Project Overview
+## Key Features:
 
-MsCafe is a web application that offers an elegant, user-friendly interface for browsing our extensive coffee menu, placing online orders, and learning about our sustainably sourced beans. Whether you’re looking to order your favorite brew or learn more about coffee origins, MsCafe provides an excellent user experience for every coffee lover.
+Al Role Playing Conversations - Users engage in spoken or text based conversations with
 
-## Features
-- **Browse Menu:** Explore our coffee varieties with detailed descriptions and pricing.
-- **Sustainability Info:** Learn about our ethical sourcing and the farms we partner with.
-- **Responsive Design:** The website is fully responsive for desktops, tablets, and mobile devices.
-- **Order Coffee:** Add items to your cart and place orders (future feature).
+virtual characters (teacher, boss, customer, Al coach, etc.), where Al corrects grammar in real time and explains mistakes in a fun, engaging way
+
+Grammar Battle Mode - Players challenge Al or friends in real time spelling & grammar correction battles, racing to fix sentences and earn points, badges, and fun Al generated rewards.
+
+Scan & Fix - Users scan signboards, menus, posters, or handwritten notes, and Al detects and corrects errors instantly.
+
+Auto Translate & Hinglish Fixer - Converts Hinglish into proper English or Hindi for
+
+seamless bilingual learning.
+
+Example: "Mujhe ek coffee pls" -> "मुझे एक कॉफी चाहिए" OR "I would like a coffee, please."
+
+Sing & Correct Mode - Users sing or rap lyrics with grammar mistakes, and Al corrects and enhances them while suggesting rhymes & synonyms for songwriting.
 
 ## Tech Stack
-- **Frontend:** React, CSS
-- **State Management:** React Context API
+- **Frontend:** React.js, tailwind CSS
+- **State Management:** fastAPI
 - **Backend:** Node.js, Express (planned for future)
-- **Database:** MongoDB (planned for future)
+- **Database:** 
 
 ## Installation
 
@@ -40,20 +45,20 @@ Follow the steps below to set up the project locally:
 
 #### Step 1: Clone the repository
 ```bash
-# Clone the MsCafe repository
+# Clone the repository
 
-git clone https://github.com/your-username/coffeeShop.git
+git clone https://github.com/vimistify/gramminGo.git
 
 # Navigate into the project directory
 cd coffeeShop
  # Install the required npm packages
 npm install
 
-git clone https://github.com/Mujtabaa07/coffeeShop.git
+git clone https://github.com/vimistify/gramminGo.git
 ```
 ```bash
 # Navigate into the project directory
-cd coffeeShop
+cd gramminGo
 ```
 ```bash
 # Install the required npm packages
@@ -65,22 +70,6 @@ npm install (or) npm i
 npm start
 ```
 Once the server is running, you can view the app at (http://localhost:3000).
-
-## Usage
-**To use the app:**
-- **View Coffee Menu:** Browse through the available coffee items on the homepage.
-- **Learn About Coffee:** Check out the sourcing section to learn more about our sustainably sourced beans.
-- **Place an Order:** In future releases, you'll be able to add items to the cart and complete orders.
-
-## ScreenShots
-## **Home Page:** 
-![homepage](https://github.com/user-attachments/assets/2dc9b51d-ce06-4eb6-89fb-774867ede12c)
-## **Coffee Menu:**
-![coffeemenu](https://github.com/user-attachments/assets/014c6a7a-03ab-4bdf-88e1-bb3c11d66447)
-## **Login Page**
-![coffeelogin](https://github.com/user-attachments/assets/c6c7c645-475d-4658-a47c-f0ada0b177d1)
-## **Testimonials**
-![testimonials](https://github.com/user-attachments/assets/38d811e3-4acc-4901-9a3d-8e4185c96a2c)
 
 ## Contributing
 We welcome contributions! Follow the steps below to contribute to this project:
@@ -122,24 +111,7 @@ git push origin feature/your-feature-name
 # Provide a clear description of your changes in the Pull Request.
 ```
 
-
-<div>
-  <h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Red%20Heart.png" width="35" height="35"> Our Contributors</h2>
-  <div align="center">
-    <h3>Thank you for contributing to our project</h3
-<p align="center">
-      <a href="https://github.com/Mujtabaa07/coffeeShop/graphs/contributors">
-        <img src="https://api.vaunt.dev/v1/github/entities/Mujtabaa07/repositories/coffeeShop/contributors?format=svg&limit=54" width="700" height="250" />
-      </a>
- </p>
-<a href="https://github.com/Mujtabaa07/coffeeShop/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Mujtabaa07/coffeeShop&max=300" />
-</a>
-    
-
-
-  </div>
 </div>
 
 
-<h3 align="center"> Happy Coding ☕️</h3>
+<h3 align="center"> Happy Coding </h3>
