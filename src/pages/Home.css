@@ -1,0 +1,129 @@
+/* CafeHome.css */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap");
+
+:root {
+  --primary-coffee: #8b4513;
+  --secondary-coffee: #d2691e;
+  --cream: #ffe4b5;
+  --light-cream: #fdf5e6;
+  --dark-coffee: #2c130b;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--light-cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-coffee);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-coffee);
+}
+
+/* Smooth Scroll Behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Coffee Steam Animation */
+@keyframes steam {
+  0% {
+    transform: translateY(0) translateX(-50%) scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateY(-20px) translateX(-50%) scale(1.2);
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(-40px) translateX(-50%) scale(1);
+    opacity: 0;
+  }
+}
+
+.steam {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.5rem;
+  color: var(--cream);
+  pointer-events: none;
+  animation: steam 3s infinite;
+}
+
+/* Feature Card Hover Effect */
+.feature-card:hover .steam {
+  opacity: 1;
+}
+
+/* Image Loading Animation */
+.lazy-image {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.lazy-image.loaded {
+  opacity: 1;
+}
+
+/* Mobile Optimizations */
+@media (max-width: 768px) {
+  .hero-section {
+    background-attachment: scroll;
+  }
+
+  .feature-card {
+    margin: 1rem;
+  }
+
+  .specialty-image {
+    width: 250px;
+    height: 250px;
+    margin: 1rem;
+  }
+}
+
+/* Text Selection Color */
+::selection {
+  background: var(--secondary-coffee);
+  color: var(--cream);
+}
+.typing {
+  display: inline-block;
+  position: relative;
+}
+
+#text {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #ffe4b5; /* Cursor color */
+  animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #ffe4b5; /* Cursor color */
+  }
+}
