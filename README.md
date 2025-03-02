@@ -50,7 +50,7 @@ Follow the steps below to set up the project locally:
 git clone https://github.com/vimistify/gramminGo.git
 
 # Navigate into the project directory
-cd coffeeShop
+cd grammingo
  # Install the required npm packages
 npm install
 
