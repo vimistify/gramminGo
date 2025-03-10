@@ -34,11 +34,11 @@ Sing & Correct Mode - Users sing or rap lyrics with grammar mistakes, and Al cor
 - **Database:** PostgreSQL
 
 ## Screenshots:
-![Screenshot](images/b1.png)
-![Screenshot](images/b2.png)
-![Screenshot](images/b3.png)
-![Screenshot](images/b4.png)
-![Screenshot](images/b5.png)
+![Screenshot](images/b1.PNG)
+![Screenshot](images/b2.PNG)
+![Screenshot](images/b3.PNG)
+![Screenshot](images/b4.PNG)
+![Screenshot](images/b5.PNG)
 
 
 ## Installation
