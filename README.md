@@ -31,7 +31,7 @@ Sing & Correct Mode - Users sing or rap lyrics with grammar mistakes, and Al cor
 - **Frontend:** React.js, tailwind CSS
 - **State Management:** fastAPI
 - **Backend:** Node.js, Express (planned for future)
-- **Database:** 
+- **Database:** PostgreSQL
 
 ## Installation
 
