@@ -1,0 +1,17 @@
+.voice-emoji {
+  font-size: 48px;
+  cursor: pointer;
+  user-select: none;
+  z-index: 1000;
+  transition: transform 0.2s ease, color 0.2s ease;
+  text-align: center;
+  background-color: darkcyan;
+  border-radius: 10px;
+  padding: 10px;
+  /* margin-bottom: 20px; */
+}
+
+.voice-emoji.recording {
+  transform: scale(1.2);
+  background-color: green; /* Change color while recording */
+}
