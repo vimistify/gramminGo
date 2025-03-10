@@ -1,0 +1,100 @@
+
+.feedback-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .feedback-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #7c2214;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  .feedback-form {
+    width: 100%;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+  }
+  
+  .form-field {
+    margin-bottom: 1.5rem;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+    font-size: 17px;
+  }
+  
+  input, textarea, select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+  input:hover,textarea:hover,select:hover{
+    border-color: #7c2214;
+    transform: scale(1.04);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+  
+  input:focus, textarea:focus, select:focus {
+    border-color: #7c2214;
+    outline: none;
+  }
+  
+  .textarea {
+    min-height: 100px;
+  }
+  
+  
+  .btn {
+    padding: 0.75rem 1.5rem;
+    background-color: #7c2214;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .btn:hover {
+    background-color: rgb(150, 32, 19);
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  .heading1 {
+    font-weight: 500;
+    margin-left: 650px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    color: #410e06;
+  }
+  

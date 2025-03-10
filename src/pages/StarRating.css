@@ -1,0 +1,26 @@
+.star-container {
+    display: flex;
+    gap: 8px;
+}
+  
+.star {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    color: white;
+}
+  
+.star:hover {
+    transform: scale(1.2);
+    color: #FFD700;
+}
+  
+.star.filled {
+    fill: #FFD700;
+}
+  
+.star.outline {
+    stroke: #FFD700;
+}
+  
