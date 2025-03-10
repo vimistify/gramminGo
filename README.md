@@ -70,46 +70,6 @@ npm install (or) npm i
 npm start
 ```
 
-## Contributing
-We welcome contributions! Follow the steps below to contribute to this project:
-```bash
-# Click the "Fork" button at the top-right of the repository page to create a copy in your GitHub account.
-```
-```bash
-# Clone the forked repository to your local machine
-git clone https://github.com/Mujtabaa07/coffeeShop.git
-```
-```bash
-# Navigate into the project directory
-cd coffeeShop
-```
-```bash
-# install dependencies
-npm install (or) npm i
-```
-```bash
-# Create a new branch for your feature or fix
-git checkout -b feature/your-feature-name
-```
-```bash
-# Make Your Changes
-Make sure your changes adhere to the project standards and structure.
-# Stage all changes
-git add .
-```
-```bash
-# Commit the changes with a descriptive message
-git commit -m "Description of the feature or fix"
-```
-```bash
-# Push your branch to your forked repository
-git push origin feature/your-feature-name
-```
-```bash
-# Go to the original repository on GitHub and open a new Pull Request
-# Provide a clear description of your changes in the Pull Request.
-```
-
 </div>
 
 
