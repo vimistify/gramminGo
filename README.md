@@ -69,7 +69,6 @@ npm install (or) npm i
 # Start the React development server
 npm start
 ```
-Once the server is running, you can view the app at (http://localhost:3000).
 
 ## Contributing
 We welcome contributions! Follow the steps below to contribute to this project:
