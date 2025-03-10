@@ -83,4 +83,12 @@ npm start
 
 Want to contribute? Check out our [Contributing Guidelines](./CONTRIBUTING.md) and submit a pull request.  
 
+## Code of Conduct 
+Please follow our [Code of Conduct](./CODE_OF_CONDUCT.md) to ensure a welcoming environment for everyone.  
+
+## License 
+This project is licensed under the [MIT License](./LICENSE).  
+
+
+
 
