@@ -33,6 +33,9 @@ Sing & Correct Mode - Users sing or rap lyrics with grammar mistakes, and Al cor
 - **Backend:** Node.js, Express (planned for future)
 - **Database:** PostgreSQL
 
+## Screenshots:
+
+
 ## Installation
 
 ### Prerequisites
