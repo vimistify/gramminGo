@@ -43,7 +43,6 @@ Before you begin, ensure you have installed the following:
 ### Setup
 Follow the steps below to set up the project locally:
 
-#### Step 1: Clone the repository
 ```bash
 # Clone the repository
 
@@ -72,5 +71,3 @@ npm start
 
 </div>
 
-
-<h3 align="center"> Happy Coding </h3>
