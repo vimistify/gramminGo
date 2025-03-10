@@ -49,7 +49,7 @@ Follow the steps below to set up the project locally:
 git clone https://github.com/vimistify/gramminGo.git
 
 # Navigate into the project directory
-cd grammingo
+cd gramminGo
  # Install the required npm packages
 npm install
 
