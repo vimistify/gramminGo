@@ -79,3 +79,8 @@ npm start
 
 </div>
 
+## Contributors 
+
+Want to contribute? Check out our [Contributing Guidelines](./CONTRIBUTING.md) and submit a pull request.  
+
+
