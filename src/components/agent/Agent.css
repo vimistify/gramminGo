@@ -1,0 +1,148 @@
+/* Base Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body with Gradient Background and Centering */
+/* body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: "Arial", sans-serif;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+} */
+
+/* Main Container */
+.container {
+  width: 90%;
+  max-width: 800px;
+  /* background-color: #fff; */
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 40px 30px;
+  margin-top: 120px;
+  margin-bottom: 50px;
+  background-image: linear-gradient(
+      rgba(44, 19, 11, 0.7),
+      rgba(44, 19, 11, 0.7)
+    ),
+    url(https://www.istockphoto.com/photo/man-working-with-a-tablet-computer-for-the-office-desk-gm508457134-85273085?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_topbanner_media&utm_term=pencil+on+ipad+finding+mistake);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #ffe4b5;
+}
+
+/* Title Styling */
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5em;
+  color: #fff;
+}
+
+/* Centered Textarea Input (90% width) */
+.input-text {
+  display: block;
+  width: 90%;
+  margin: 0 auto 20px auto;
+  padding: 15px;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  resize: vertical;
+  background-color: #333;
+}
+
+/* Button Group */
+.button-group {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Buttons Styling */
+.button {
+  background-color: #667eea;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  margin: 5px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background-color: #556cd6;
+  transform: translateY(-2px);
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Secondary Button Styling */
+.button.secondary {
+  background-color: #764ba2;
+}
+
+.button.secondary:hover {
+  background-color: #6a3e8b;
+}
+
+/* Loading Text Styling */
+.loading {
+  text-align: center;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+/* Result Sections Styling */
+.result {
+  margin-top: 30px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Fade-In Animation */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+  .title {
+    font-size: 1.7em;
+  }
+  .container {
+    padding: 20px;
+  }
+  .button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+  .input-text {
+    width: 95%;
+  }
+}
