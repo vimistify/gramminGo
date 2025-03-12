@@ -81,13 +81,17 @@ npm start
 
 ## Contributors 
 
-Want to contribute? Check out our [Contributing Guidelines](./CONTRIBUTING.md) and submit a pull request.  
+ [Contributing Guidelines](./CONTRIBUTING.md)
+
+ [![Contributors](https://img.shields.io/github/contributors/vimistify/gramminGo)](https://github.com/vimistify/gramminGo/graphs/contributors)
 
 ## Code of Conduct 
 Please follow our [Code of Conduct](./CODE_OF_CONDUCT.md) to ensure a welcoming environment for everyone.  
 
 ## License 
 This project is licensed under the [MIT License](./LICENSE).  
+
+
 
 
 
