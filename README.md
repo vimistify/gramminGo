@@ -83,7 +83,7 @@ npm start
 
 [Contributing Guidelines](./CONTRIBUTING.md)
 
-<a href="https://github.com/vimistify/gramminGo/graphs/contributors">
+<a href="https://contrib.rocks/image?repo=vimsitify/gramminGo">
   <img src="https://contrib.rocks/image?repo=vimsitify/gramminGo" />
 </a>
 
