@@ -81,9 +81,7 @@ npm start
 
 ## Contributors 
 
- [Contributing Guidelines](./CONTRIBUTING.md)
-
- [![Contributors](https://img.shields.io/github/contributors/vimistify/gramminGo)](https://github.com/vimistify/gramminGo/graphs/contributors)
+[Contributing Guidelines](./CONTRIBUTING.md)
 
 ## Code of Conduct 
 Please follow our [Code of Conduct](./CODE_OF_CONDUCT.md) to ensure a welcoming environment for everyone.  
