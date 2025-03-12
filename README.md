@@ -83,8 +83,8 @@ npm start
 
 [Contributing Guidelines](./CONTRIBUTING.md)
 
-<a href="https://contrib.rocks/image?repo=vimsitify/gramminGo">
-  <img src="https://contrib.rocks/image?repo=vimsitify/gramminGo" />
+<a href="https://contrib.rocks/image?repo=gramminGo/vimisitfy">
+  <img src="https://contrib.rocks/image?repo=gramminGo/vimisitfy" />
 </a>
 
 ## Code of Conduct 
