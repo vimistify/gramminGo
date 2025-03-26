@@ -10,7 +10,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/footer";
 import Home from "./pages/Home";
 import Login from "./pages/login";
-// import Register from "./pages/Register";
+import Register from "./pages/Register";
 
 import About from "./pages/About";
 // import Blog from "./pages/blog";
