@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Agent.css";
-import VoiceEmoji from "../Voice/VoiceEmoji";
+import VoiceEmoji from "../voice/VoiceEmoji";
 
 const Agent = () => {
   const [inputText, setInputText] = useState("");
