@@ -11,8 +11,7 @@ import Footer from "./components/footer";
 import Home from "./pages/Home";
 import Login from "./pages/login";
 // import Register from "./pages/Register";
-// import Shop from "./pages/Shop";
-// import Cart from "./pages/cart";
+
 import About from "./pages/About";
 // import Blog from "./pages/blog";
 // import Blog1 from "./pages/blog1";
@@ -22,14 +21,10 @@ import Faq from "./pages/Faq";
 // import Contact from "./pages/contact";
 // import Profile from "./pages/profile";
 // import Checkout from "./pages/checkOut";
-// import Cake from "./pages/cake";
-// import Coffee from "./pages/coffee";
-// import Soup from "./pages/soup";
-// import Milkshakes from "./pages/milkshake";
-// import PremiumBeans from "./pages/PremiumBeans";
+
+
 import ForgetPassword from "./pages/ForgetPassword";
-// import ExpertBaristas from "./pages/ExpertBaristas";
-// import CozyAmbiance from "./pages/CozyAmbiance";
+
 import AnimatedCursor from "react-animated-cursor";
 import Feedback from "./pages/Feedback";
 import Agent from "./components/Agent/Agent";
@@ -68,8 +63,7 @@ function App() {
               {/* <Route path="/register" element={<Register />} /> */}
               <Route path="/forget-password" element={<ForgetPassword />} />
               <Route path="/home" element={<Home />} />
-              {/* <Route path="/shop" element={<Shop />} /> */}
-              {/* <Route path="/cart" element={<Cart />} /> */}
+           
               <Route path="/about" element={<About />} />
               {/* <Route path="/blog" element={<Blog />} /> */}
               {/* <Route path="/blog1" element={<Blog1 />} /> */}
@@ -79,14 +73,9 @@ function App() {
               {/* <Route path="/profile" element={<Profile />} /> */}
               {/* <Route path="/checkout" element={<Checkout />} /> */}
               <Route path="/faq" element={<Faq />} />
-              {/* <Route path="/shop/cake" element={<Cake />} /> */}
-              {/* <Route path="/shop/coffee" element={<Coffee />} /> */}
-              {/* <Route path="/shop/soup" element={<Soup />} /> */}
-              {/* <Route path="/shop/milkshake" element={<Milkshakes />} /> */}
-              {/* <Route path="/premiumbeans" element={<PremiumBeans />} /> */}
+              
               <Route path="/feedback" element={<Feedback />} />
-              {/* <Route path="/expertbaristas" element={<ExpertBaristas />} /> */}
-              {/* <Route path="/cozyambiance" element={<CozyAmbiance />} /> */}
+              
             </Routes>
           </ContentContainer>
           <Footer />
