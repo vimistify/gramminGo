@@ -13,7 +13,7 @@ With this passion for language, we are excited to introduce grammingo:an interac
 
 Al Role Playing Conversations - Users engage in spoken or text based conversations with
 
-virtual characters (teacher, boss, customer, Al coach, etc.), where Al corrects grammar in real time and explains mistakes in a fun, engaging way
+virtual characters (teacher, boss, customer, Al coach, etc.) where Al corrects grammar in real time and explains mistakes in a fun, engaging way
 
 Grammar Battle Mode - Players challenge Al or friends in real time spelling & grammar correction battles, racing to fix sentences and earn points, badges, and fun Al generated rewards.
 
